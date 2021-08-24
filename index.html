@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>urna Eletronica</title>
+</head>
+<body>
+    <div class="box">
+        <div class="screen">
+            <div class="d-1">
+                <div class="d-1--left">
+                    <div class="d-1-1">
+                        <span>Seu Voto Para</span>
+                    </div>
+                    <div class="d-1-2">
+                        <span>VEREADOR</span>
+                    </div>
+                    <div class="d-1-3">
+                        <div class="space focus"></div>
+                        <div class="space"></div>
+                    </div>
+                    <div class="d-1-4">
+                        Nome: Fulano do Mato <br/>
+                        Partido: PSP <br/>
+                        Vice-Prefeito: Porco do ato
+                    </div>
+                </div>
+                <div class="d-1--right">
+                    <div class="d-1-right-img">
+                        <img src="/urna/images/84.jpg">
+                        Prefeito
+                    </div>
+
+                    <div class="d-1-right-img small">
+                        <img src="/urna/images/84_2.jpg">
+                        Vicê-Prefeito
+                    </div>
+                </div>
+            </div>
+            <div class="d-2">
+                <span>Tap on the screen: <br/>
+                CONFIRMA para confirar o voto <br/>
+                CORRIGIR para reiniciar o voto
+                </span>
+            </div>
+        </div>
+        <div class="keyboard">
+            <div class="keyboard-line">
+                <div class="keyboard-button" onclick="clicou('1')">1</div>
+                <div class="keyboard-button" onclick="clicou('2')">2</div>
+                <div class="keyboard-button" onclick="clicou('3')">3</div>
+            </div>
+
+            <div class="keyboard-line">
+                <div class="keyboard-button" onclick="clicou('4')">4</div>
+                <div class="keyboard-button" onclick="clicou('5')">5</div>
+                <div class="keyboard-button" onclick="clicou('6')">6</div>
+            </div>
+
+            <div class="keyboard-line">
+                <div class="keyboard-button" onclick="clicou('7')">7</div>
+                <div class="keyboard-button" onclick="clicou('8')">8</div>
+                <div class="keyboard-button" onclick="clicou('9')">9</div>
+            </div>
+
+            <div class="keyboard-line">
+                <div class="keyboard-button" onclick="clicou('0')">0</div>
+            </div>
+
+            <div class="keyboard-line end">
+                <div class="keyboard-button branco" onclick="branco()">branco</div>
+                <div class="keyboard-button corrige" onclick="corrige()">corige</div>
+                <div class="keyboard-button confirma" onclick="confirma()">confirma</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/step.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
